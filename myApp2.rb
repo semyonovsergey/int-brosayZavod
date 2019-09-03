@@ -1,8 +1,1 @@
-#encoding: cp866
-
-print "Ç¢•§®• Ç†Ë• ®¨Ô: "
-n = gets.strip
-
-puts  "ÑÆ°‡Î© §•≠Ï,\t #{n.capitalize}"
-
-puts "Ç Ç†Ë•¨ ®¨•≠®\t #{n.length}"
+10.times { print "–°–ø–∞—Ä—Ç–∞–∫ - —á–µ–º–ø–∏–æ–Ω!" }
