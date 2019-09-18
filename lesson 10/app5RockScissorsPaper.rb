@@ -1,4 +1,4 @@
-arr = [:"rock", :"scissors", :"paper"]
+arr = [:rock, :scissors, :paper]
 
 #3
 print "(R)ock, (S)cissors, (P)aper: "
