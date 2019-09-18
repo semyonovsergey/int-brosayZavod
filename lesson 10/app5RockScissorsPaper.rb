@@ -1,17 +1,25 @@
 arr = [:rock, :scissors, :paper]
+human = ""
 
-#3
-print "(R)ock, (S)cissors, (P)aper: "
-human_put = gets.strip.capitalize
-if human_put == "R"
-  human = arr[0]
-elsif human_put == "S"
-  human = arr[1]
-elsif human_put == "P"
-  human = arr[2]
-else
-  puts "Wrong latter!!!"
-  exit #then clear this string
+3.times {
+  print "(R)ock, (S)cissors, (P)aper: "
+  human_put = gets.strip.capitalize
+  if human_put == "R"
+    human = arr[0]
+    break
+  elsif human_put == "S"
+    human = arr[1]
+    break
+  elsif human_put == "P"
+    human = arr[2]
+    break
+  else
+    puts "Wrong latter!!!"
+  end
+}
+
+if human == ""
+  exit
 end
 
 puts "You = #{human}"
